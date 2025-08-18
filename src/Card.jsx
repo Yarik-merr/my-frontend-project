@@ -8,8 +8,8 @@ export const Card = ({ iconName, title, description, className }) => {
         <IconComponent iconName={iconName} className="w-1/3" />
       </div>
       <div className="font-bold leading-7">
-        <h3 className="text-[var(--white)] text-2xl mb-3">{title}</h3>
-        <p className="text-[var(--light-grey)] text-lg">{description}</p>
+        <h3 className="text-white text-2xl mb-3">{title}</h3>
+        <p className="text-light-grey text-lg">{description}</p>
       </div>
     </article>
   );

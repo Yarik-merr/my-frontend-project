@@ -1,8 +1,8 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @font-face {
-  font-family: "Gilroy";
-  src: url("./fonts/Gilroy-Light.woff2") format("opentype");
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Light.woff2') format('opentype');
 }
 
 body {
@@ -10,12 +10,12 @@ body {
   box-sizing: border-box;
 }
 
-:root {
-  --dark-grey: #1d1d1d;
-  --dark-medium-grey: #303030;
-  --medium-grey: #2d2d2d;
-  --light-grey: #a4a4a4;
-  --white: #ffffff;
+@theme {
+  --color-dark-grey: #1d1d1d;
+  --color-dark-medium-grey: #303030;
+  --color-medium-grey: #2d2d2d;
+  --color-light-grey: #a4a4a4;
+  --color-white: #ffffff;
 
   --z-base: 1;
   --z-content: 5;
@@ -36,5 +36,3 @@ body {
   --radius-section: 50px;
   --radius-circle: 50%;
 }
-
-
