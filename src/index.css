@@ -35,4 +35,7 @@ body {
   --radius-card: 20px;
   --radius-section: 50px;
   --radius-circle: 50%;
+
+  --breakpoint-md: 860px;
+  --breakpoint-sm: 375px;
 }
