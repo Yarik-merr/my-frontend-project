@@ -38,4 +38,30 @@ body {
 
   --breakpoint-md: 860px;
   --breakpoint-sm: 375px;
+
+  --animate-fly-card: fly-card 1s ease infinite alternate;
+  --animate-twist-card: twist-card 1s ease forwards;
+
+  --shadow-card-hover: rgba(84, 78, 17, 0.263) 0px 10px 15px 0px;
+}
+
+@keyframes twist-card {
+  0% {
+    transform: translateY(0) rotateY(0deg);
+  }
+  /* 50% {
+    transform: translateY(-20px) rotateY(180deg);
+  } */
+  100% {
+    transform: translateY(-20px) rotateY(360deg);
+  }
+}
+
+@keyframes fly-card {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(-25px);
+  }
 }
