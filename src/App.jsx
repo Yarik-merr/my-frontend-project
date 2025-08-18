@@ -6,7 +6,7 @@ import "./index.css";
 function App() {
   return (
     <main className="container-2xl mx-auto">
-      <section className="py-[80px] px-[30px] bg-[var(--dark-grey)] w-screen h-fit grid grid-cols-[repeat(auto-fit,minmax(300px,var(--card-max-width)))] justify-center items-center gap-[var(--mini-gap)] rounded-[var(--border-radius-section)] md:gap-[var(--mini-gap)] lg:self-center">
+      <section className="py-[80px] px-[30px] bg-dark-grey w-screen h-fit grid grid-cols-[repeat(auto-fit,minmax(300px,var(--spacing-card-max-width)))] justify-center items-center gap-mini-gap rounded-section lg:self-center">
         {data.map((item, index) => (
           <Card
             key={index}

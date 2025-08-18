@@ -10,12 +10,12 @@ body {
   box-sizing: border-box;
 }
 
-:root {
-  --dark-grey: #1d1d1d;
-  --dark-medium-grey: #303030;
-  --medium-grey: #2d2d2d;
-  --light-grey: #a4a4a4;
-  --white: #ffffff;
+@theme {
+  --color-dark-grey: #1d1d1d;
+  --color-dark-medium-grey: #303030;
+  --color-medium-grey: #2d2d2d;
+  --color-light-grey: #a4a4a4;
+  --color-white: #ffffff;
 
   --z-base: 1;
   --z-content: 5;
@@ -23,16 +23,16 @@ body {
   --z-circle-2: 3;
   --z-circle-3: 2;
 
-  --padding-card: 35px;
-  --gap: 55px;
-  --mini-gap: 20px;
+  --spacing-padding-card: 35px;
+  --spacing-gap: 55px;
+  --spacing-mini-gap: 20px;
+  --spacing-card-max-width: 390px;
+  --spacing-card-height: 407px;
+
   --circle-size: 523px;
   --circle-mini-size: 240px;
 
-  --border-radius-card: 20px;
-  --border-radius-section: 50px;
-  --border-radius-circle: 50%;
-
-  --card-max-width: 390px;
-  --card-height: 407px;
+  --radius-card: 20px;
+  --radius-section: 50px;
+  --radius-circle: 50%;
 }
