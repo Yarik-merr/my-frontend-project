@@ -29,10 +29,14 @@ body {
   --spacing-card-max-width: 390px;
   --spacing-card-height: 407px;
 
-  --circle-size: 523px;
-  --circle-mini-size: 240px;
+  --spacing-circle-size: 523px;
+  --spacing-circle-mini-size: 240px;
 
   --radius-card: 20px;
   --radius-section: 50px;
   --radius-circle: 50%;
 }
+
+/* @theme {
+  --color-dark-gray: #1d1d1d;
+} */
