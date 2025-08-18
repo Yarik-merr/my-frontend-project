@@ -3,9 +3,7 @@ import './index.css';
 
 export const Card = ({ iconName, title, description, className }) => {
   return (
-    <article
-      className={`${className} font-['Gilroy'] h-[var(--card-height)] max-w-[var(--card-max-width)] bg-[var(--medium-grey)] p-[var(--padding-card)] rounded-2xl flex flex-col gap-[var(--gap)]`}
-    >
+    <article className="font-['Gilroy'] h-card-height max-w-card-max-width bg-medium-grey p-padding-card rounded-card flex flex-col gap-gap z-[var(--z-content)]">
       <div className="self-end">
         <IconComponent iconName={iconName} className="w-1/3" />
       </div>

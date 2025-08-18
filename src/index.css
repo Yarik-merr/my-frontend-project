@@ -23,16 +23,18 @@ body {
   --z-circle-2: 3;
   --z-circle-3: 2;
 
-  --padding-card: 35px;
-  --gap: 55px;
-  --mini-gap: 20px;
-  --circle-size: 523px;
-  --circle-mini-size: 240px;
+  --spacing-padding-card: 35px;
+  --spacing-gap: 55px;
+  --spacing-mini-gap: 20px;
+  --spacing-card-max-width: 390px;
+  --spacing-card-height: 407px;
 
-  --border-radius-card: 20px;
-  --border-radius-section: 50px;
-  --border-radius-circle: 50%;
+  --spacing-circle-size: 523px;
+  --spacing-circle-mini-size: 240px;
 
-  --card-max-width: 390px;
-  --card-height: 407px;
+  --radius-card: 20px;
+  --radius-section: 50px;
+  --radius-circle: 50%;
 }
+
+
