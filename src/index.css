@@ -1,0 +1,67 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Light.woff2') format('opentype');
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@theme {
+  --color-dark-grey: #1d1d1d;
+  --color-dark-medium-grey: #303030;
+  --color-medium-grey: #2d2d2d;
+  --color-light-grey: #a4a4a4;
+  --color-white: #ffffff;
+
+  --z-base: 1;
+  --z-content: 5;
+  --z-circle-1: 4;
+  --z-circle-2: 3;
+  --z-circle-3: 2;
+
+  --spacing-padding-card: 35px;
+  --spacing-gap: 55px;
+  --spacing-mini-gap: 20px;
+  --spacing-card-max-width: 390px;
+  --spacing-card-height: 407px;
+
+  --spacing-circle-size: 523px;
+  --spacing-circle-mini-size: 240px;
+
+  --radius-card: 20px;
+  --radius-section: 50px;
+  --radius-circle: 50%;
+
+  --breakpoint-md: 860px;
+  --breakpoint-sm: 375px;
+
+  --animate-fly-card: fly-card 1s ease infinite alternate;
+  --animate-twist-card: twist-card 1s ease forwards;
+
+  --shadow-card-hover: rgba(84, 78, 17, 0.263) 0px 10px 15px 0px;
+}
+
+@keyframes twist-card {
+  0% {
+    transform: translateY(0) rotateY(0deg);
+  }
+  /* 50% {
+    transform: translateY(-20px) rotateY(180deg);
+  } */
+  100% {
+    transform: translateY(-20px) rotateY(360deg);
+  }
+}
+
+@keyframes fly-card {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(-25px);
+  }
+}
